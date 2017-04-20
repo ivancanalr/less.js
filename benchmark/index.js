@@ -15,7 +15,7 @@ fs.readFile(file, 'utf8', function (e, data) {
 
     var renderBenchmark = []
       , parserBenchmark = []
-      , evalBenchmark = [];
+      , evalBenchmark = [];/addmodify
 
     var totalruns = 30;
     var ignoreruns = 5;
